@@ -26,6 +26,8 @@ def hello_world():
     """Example Hello World route."""
     name = os.environ.get("NAME", "World")
     return f"Hello {name}!"
+    name = os.environ.get("NAME", "experto en Cloud Computing")
+    return f"Hello {name}!"
 
 
 if __name__ == "__main__":
