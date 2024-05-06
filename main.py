@@ -27,7 +27,7 @@ def hello_world():
     name = os.environ.get("NAME", "World")
     return f"Hello {name}!"
     name = os.environ.get("NAME", "experto en Cloud Computing")
-    return f"Hello {name}!"
+    return f"Hola {name}!"
 
 
 if __name__ == "__main__":
